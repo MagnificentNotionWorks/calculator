@@ -257,7 +257,7 @@ var buttons = document.getElementsByClassName("button");
     button.textContent != "ln" && 
     button.textContent != "x^" && 
     button.textContent != "x!" && 
-    button.textContent != "pi" && 
+    button.textContent != "3.14" && 
     button.textContent != "Rad" 
     && button.textContent != "Deg") {
       display.value += button.textContent;
@@ -275,7 +275,7 @@ var buttons = document.getElementsByClassName("button");
       Minus();
     } else if (button.textContent === "%") {
       percent();
-    } else if (button.textContent === "pi") {
+    } else if (button.textContent === "3.14") {
       pi();
     } else if (button.textContent === "√") {
       squareRoot();
@@ -357,7 +357,7 @@ function factorial() {
 }
 
 function pi() {
-  display.value = (display.value * Math.PI);
+  display.value = (display.value * Math.3.14);
 }
 
 function square() {
@@ -399,11 +399,11 @@ function exponent() {
 
 
 function radians() {
-  display.value = display.value * (Math.PI / 180);
+  display.value = display.value * (Math.3.14 / 180);
 }
 
 function degrees() {
-  display.value = display.value * (180 / Math.PI);
+  display.value = display.value * (180 / Math.3.14);
 }
 
 </script>
